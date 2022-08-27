@@ -1,0 +1,113 @@
+#load1{
+
+    margin: 0 auto;
+    position: absolute;
+	left: 50%;
+	top:35%;
+	background:#fff;
+    }
+    #load2{
+
+    margin: 0 auto;
+    position: absolute;
+	left: 50%;
+	top:7%;
+	background:#fff;
+    }
+.overlay {
+    background: none repeat scroll 0 0 #000;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#pinresult
+{
+margin-top:25px;
+}
+#bluedart_shipping_form table
+{
+width:98%;
+}
+#bluedart_shipping_form select,#bluedart_shipping_form input[type="text"],
+#bluedart_shipping_form textarea
+{
+width:46%;
+}
+#shipment_button
+{
+margin-top:30px;
+}
+span.error
+{
+color:red !important;
+}
+#bluedart_box
+{
+margin-top: 30px;
+float: left;
+}
+#bluedart_box #error
+{
+float: left;
+}
+#bluedart_box label
+{
+float: left;
+width: 100%;
+}
+#bluedart_box input[type=text]
+{
+/*
+float: left;
+*/
+width: 100%;
+}
+#bluedart_box a
+{
+text-decoration:none !important;
+}
+
+.fancybox-inner #bluedart_box input[type="text"]{
+width:50%;
+	
+}
+
+
+.fancybox-wrap,
+.fancybox-skin{
+	width:50%;
+
+}
+.fancybox-inner {
+	width:100% !important;
+}
+.fancybox-close{
+	top:0px !important;
+}
+/*
+.menifest_main .pagination {
+    margin-bottom: 12px;
+    position: absolute;
+    right: 1%;
+    top: 37%;
+}
+*/
+.generate_menifest_form{
+	font-weight: bold;
+/*
+    margin-left: 1%;
+*/
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+}
+.menifest_main .pagination > a,.menifest_main .current,.menifest_main .disabled {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
