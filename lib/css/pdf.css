@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: normal;
+	height:auto;
+	font-family:Arial, sans-serif;
+	line-height:20px;
+	
+	
+}
+.manifest_pdf{
+width:1340px;
+}
+.manifest_pdf tr th{
+font-size: 25px;border: 1px solid #000;padding:5px;text-align:center;
+}
+.manifest_pdf tr td,.manifest_pdf div{
+font-size: 25px;padding:5px;text-align:center;
+}
+strong { font-weight:bold;}
+
+ol, ul {list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #0000ff;
+}
+
+p { color:#000;}
+
+img { max-width: 100%;}
+table, tr, td{border: 1px solid #000; border-collapse:collapse; font-size: 12px; font-weight: 500;}
+
+.main-block {width:1240px; height: auto; background:#fff; margin: 20px auto; border:1px solid #000; overflow: hidden; clear: both;}
+.sectn-top { clear: both; display: block; overflow: hidden; border-bottom: 1px solid #000;}
+.log-main { float: left; width: 20%; vertical-align:top; margin: 10px 20px;}
+.log-main img { max-width: 100%;}
+.ship-adrs { float: left; vertical-align:top; padding: 20px 10px; margin-left: 15px; border-right: 1px solid #000; width: 30%; }
+.ship-adrs h2 { font-size: 14px; font-weight: bold; margin:0 0 10px; color:#000;}
+.ship-adrs p { font-size: 12px; margin: 0 0 5px; color:#000;}
+.ship-adrs h4 { font-size: 12px; font-weight: bold; color:#000;}
+.inv-dtails { float: left; width: 38%; vertical-align:top; padding: 10px;}
+.inv-dtails p {font-size: 12px; margin: 0 0 10px; color:#000; text-align:left;}
+.inv-dtails p span { text-align:left;}
+.border-no { border: none;}
+.ordr-dtails { float:right; width: 65%; padding: 20px 0; }
+.ordr-dtails .o-id { float: left; width: 38%; margin-right: 15px;}
+.ordr-dtails .o-id .img-cntr img{width:90%;margin-right:10px;}
+.ordr-dtails .o-id p { font-size: 12px;text-align: left;padding-left:6px;}
+.ordr-dtails .o-id h2 {font-size: 14px; font-weight: bold; margin:0 0 10px; color:#000;padding-left:6px;}
+.ordr-dtails .o-cod.o-id { width: 45%; }
+.ordr-dtails .o-cod { margin:0}
+.p-details { clear:both;width: 90%; text-align:right; margin-right:20px;}
+.p-details p { font-size: 12px; font-weight:bold; margin: 0 0 5px; }
+.p-details p span { text-align:left; font-size: 12px; font-weight: normal;}
+.ttl-amnt { clear:both; width: 50%; text-align:center}
+.ttl-amnt h2 { font-size: 14px; font-weight: bold; margin:0 0 10px; color:#000; line-height: 100%;}
+.tble-btm { margin:40px auto 0; width: 90%;}
+.tble-btm table tr td { padding: 5px;}
+.botm-txt { margin: 30px 0 30px 30px; text-align:left; float:left; width: 150px; vertical-align:top;}
+.botm-txt1 { width: 600px; float:left;}
+.botm-txt p { font-size: 12px; font-weight:600; margin:0}
+.botm-txt1 p { font-weight: normal; font-size: 12px;}
+
+.botm-adrss { border: none; margin: 30px 0 30px 30px;}
+.botm-adrss tr { border: none;}
+.botm-adrss tr td { border: none;}
